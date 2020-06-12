@@ -297,7 +297,15 @@ class Client():
         snarkWorkFee
         syncStatus
         proposePubkeys
-        nextProposal
+        nextBlockProduction {
+          times {
+          endTime
+          epoch
+          globalSlot
+          slot
+          startTime
+          }
+        }
         consensusTimeBestTip
         consensusTimeNow
         consensusMechanism
